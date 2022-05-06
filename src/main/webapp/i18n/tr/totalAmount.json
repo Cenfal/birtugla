@@ -1,0 +1,25 @@
+{
+  "birtuglaApp": {
+    "totalAmount": {
+      "home": {
+        "title": "Total Amounts",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Total Amount",
+        "createOrEditLabel": "Create or edit a Total Amount",
+        "notFound": "No Total Amounts found"
+      },
+      "created": "A new Total Amount is created with identifier {{ param }}",
+      "updated": "A Total Amount is updated with identifier {{ param }}",
+      "deleted": "A Total Amount is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Total Amount {{ id }}?"
+      },
+      "detail": {
+        "title": "Total Amount"
+      },
+      "id": "Id",
+      "amount": "Amount",
+      "version": "Version"
+    }
+  }
+}

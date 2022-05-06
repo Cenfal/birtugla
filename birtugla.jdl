@@ -1,0 +1,21 @@
+
+entity Donor {
+	id UUID,
+	intId Integer,
+    name String,
+    surname String,
+    amount BigDecimal,
+	description String,
+    createdBy LocalDate,
+    createDate LocalDate,
+    isDeleted Boolean,
+    nameVisible Boolean,
+    amountVisible Boolean
+}
+
+entity TotalAmount{
+	id UUID,
+	amount BigDecimal,
+    version Integer
+}
+
