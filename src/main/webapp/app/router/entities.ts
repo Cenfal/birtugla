@@ -78,7 +78,7 @@ export default {
       path: 'main-page',
       name: 'mainpage',
       component: MainPage,
-      meta: { authorities: [Authority.USER] },
+      meta: { },
     }
   ],
 };
